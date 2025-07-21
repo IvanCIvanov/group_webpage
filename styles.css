@@ -65,19 +65,7 @@ header nav button:hover {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin: 50px;
-    padding: 20px;
-    flex: 1 1 calc(30% - 40px);
-    text-align: center;
-    transition: transform 0.2s;
-}
-
-
-#CarterCard{
-    background: #ff6242;
-    border-radius: 200px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin: 10px;
-    padding: 20px;
+    padding: 50px;
     flex: 1 1 calc(30% - 40px);
     text-align: center;
     transition: transform 0.2s;
@@ -186,6 +174,17 @@ button:hover {
 }
 /* End of Ivan's Card Styling */
 
+/* Carter's Card Styling */
+#CarterCard{
+    background: #ff6242;
+    border-radius: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    flex: 1 1 calc(30% - 40px);
+    text-align: center;
+    transition: transform 0.2s;
+}
 
 #carter_bio1, #carter_bio2{
     font-family: 'Libre Caslon Text', serif;
