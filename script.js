@@ -15,6 +15,16 @@ function toggleBio(bioId) {
     }
 }
 
+function toggleInlineBio(bioId) {
+    const bio = document.getElementById(bioId);
+    // Toggle between showing and hiding the bio section
+    if (bio.style.display === "none" || bio.style.display === "") {
+        bio.style.display = "inline-block";
+    } else {
+        bio.style.display = "none";
+    }
+}
+
 /**
  * Shows the specified section ('bios' or 'vision') and hides the other
  * @param {string} sectionId - The ID of the section to display
