@@ -72,6 +72,17 @@ header nav button:hover {
 }
 
 
+#CarterCard{
+    background: #ff6242;
+    border-radius: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    flex: 1 1 calc(30% - 40px);
+    text-align: center;
+    transition: transform 0.2s;
+}
+
 .card:hover {
     transform: scale(1.05);
 }
@@ -173,7 +184,43 @@ button:hover {
     margin: 0 auto;
     max-height: 50px;
 }
-
 /* End of Ivan's Card Styling */
 
+
+#carter_bio1, #carter_bio2{
+    font-family: 'Libre Caslon Text', serif;
+    font-weight: bolder;
+    color: #000000;
+}
+
+#CarterName{
+    font-family: 'Libre Caslon Text', serif;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #000000;
+}
+
+#CarterTitle {
+    font-family: 'Libre Caslon Text', serif;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #000000;
+}
+
+#carter_img1{
+    display: none;
+    margin: 0 auto;
+    max-height: 100px;
+}
+
+/* Button styling */
+button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* End of Carter's Card Styling */
 
