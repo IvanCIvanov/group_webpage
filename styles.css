@@ -150,3 +150,67 @@ button {
 button:hover {
     background: #0056b3;
 }
+
+#GrishmaCard {
+    background: #fff0f5;
+    border-radius: 25px;
+    border: 2px solid #8a2be2;
+    box-shadow: 0 4px 8px rgba(138, 43, 226, 0.2);
+    margin: 10px;
+    padding: 20px;
+    flex: 1 1 calc(30% - 40px);
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+#GrishmaCard:hover {
+    transform: scale(1.05);
+}
+
+#grishma_img1 {
+    display: none;
+    margin: 0.5rem auto 0;
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 50%;
+    border: 4px solid #20b2aa;
+}
+
+#GrishmaName {
+    font-family: 'Georgia', serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4b0082;
+}
+
+#GrishmaTitle {
+    font-family: 'Georgia', serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #5f9ea0;
+}
+
+#grishma_bio1, #grishma_bio2 {
+    font-family: 'Verdana', sans-serif;
+    font-size: 1rem;
+    color: #333;
+    display: none;
+    margin-top: 10px;
+}
+
+#GrishmaButton {
+    font-family: 'Georgia', serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #8a2be2;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#GrishmaButton:hover {
+    background-color: #6a1bbd;
+}
+
