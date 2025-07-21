@@ -289,3 +289,11 @@ button:hover {
 #GrishmaButton:hover {
     background-color: #6a1bbd;
 }
+
+#aidan_img1 {
+    display: none;
+    border-radius: 50%;
+    max-width: 100px;
+    max-height: 100px;
+    margin: 10px auto;
+}
