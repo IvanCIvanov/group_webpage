@@ -4,23 +4,22 @@
 /* General page styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #020000;
+    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
 }
 
 /* Header section styling */
 header {
-    background: #0a4000;
-    color: #00ff07;
+    background: #333;
+    color: #fff;
     padding: 10px 0;
     text-align: center;
-    font-size: 30px;
 }
 
 /* Styling for team logo image */
 .team-logo {
-    width: 200px; /* Adjust the size as needed */
+    width: 150px; /* Adjust the size as needed */
     margin-top: 10px;
 }
 
@@ -30,20 +29,17 @@ header nav {
 }
 
 header nav button {
-    background: #22ff00;
-    color: #000000;
+    background: #007BFF;
+    color: white;
     border: none;
     padding: 10px 15px;
-    border-radius: 20px;
+    border-radius: 5px;
     cursor: pointer;
     margin: 0 5px;
-    font-weight: bold;
-    height: 50px;
-    width: 150px;
 }
 
 header nav button:hover {
-    background: #045500;
+    background: #0056b3;
 }
 
 /* Flex container for team bios and vision sections */
@@ -55,25 +51,20 @@ header nav button:hover {
     justify-content: space-between;
 }
 
-/* Vision section styling */
-#vision {
-    color: #00ff07;
-}
 /* Card styling for individual team bios */
 .card {
     background: white;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin: 50px;
+    margin: 10px;
     padding: 20px;
     flex: 1 1 calc(30% - 40px);
     text-align: center;
     transition: transform 0.2s;
 }
 
-
-#CarterCard{
-    background: #ff6242;
+#IvanCard{
+    background: #483e4f;
     border-radius: 200px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin: 10px;
@@ -103,48 +94,10 @@ h2 {
     max-height: 200px;
 }
 
-/* Button styling */
-button {
-    background: #007BFF;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background: #0056b3;
-}
-
-/* Ivan's Card Styling */
-
-
-#IvanCard{
-    background: #8f9759;
-    border-radius: 200px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin: 10px;
-    padding: 20px;
-    flex: 1 1 calc(30% - 40px);
-    text-align: center;
-    transition: transform 0.2s;
-}
-
-#ivan_bio1, #ivan_bio2, #ivan_bio3{
+#ivan_bio1, #ivan_bio2{
     font-family: 'Libre Caslon Text', serif;
     font-weight: bolder;
     color: #001a6a;
-}
-
-#ivan_bio4 {
-    display: none;
-    font-family: 'Libre Caslon Text', serif;
-    font-weight: bolder;
-    color: #ff0000;
-    border: 3px solid #ff0000;
-    border-radius: 50px;
-    padding: 5px 10px;
 }
 
 #IvanName {
@@ -165,10 +118,9 @@ button:hover {
     font-family: 'Libre Caslon Text', serif;
     font-size: 1.5rem;
     font-weight: bolder;
-    color: #006707;
-    background: #000000;
+    color: #00d2ff;
+    background: #6b0000;
 }
-
 
 #ivan_img1{
     display: none;
@@ -184,34 +136,6 @@ button:hover {
     margin: 0 auto;
     max-height: 50px;
 }
-/* End of Ivan's Card Styling */
-
-
-#carter_bio1, #carter_bio2{
-    font-family: 'Libre Caslon Text', serif;
-    font-weight: bolder;
-    color: #000000;
-}
-
-#CarterName{
-    font-family: 'Libre Caslon Text', serif;
-    font-size: 3rem;
-    font-weight: bolder;
-    color: #000000;
-}
-
-#CarterTitle {
-    font-family: 'Libre Caslon Text', serif;
-    font-size: 2rem;
-    font-weight: normal;
-    color: #000000;
-}
-
-#carter_img1{
-    display: none;
-    margin: 0 auto;
-    max-height: 100px;
-}
 
 /* Button styling */
 button {
@@ -222,5 +146,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
-/* End of Carter's Card Styling */
 
+button:hover {
+    background: #0056b3;
+}
