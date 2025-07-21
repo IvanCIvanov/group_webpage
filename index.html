@@ -27,11 +27,20 @@
 <!-- Team bios section (default section) -->
 <div id="bios" class="container">
     <!-- Each card represents an individual team member -->
-    <div class="card">
-        <h2>John Doe</h2>
-        <p>Frontend Developer</p>
-        <button onclick="toggleBio('bio1')">Show Bio</button>
-        <p id="bio1" class="bio">John is a skilled frontend developer with 5 years of experience in creating responsive web applications.</p>
+    <div id=GrishmaCard" class="card">
+        <h2 id="GrishmaName">Grishma Howale</h2>
+        <p id="GrishmaTitle">Security Enthusiast</p>
+        <button id="GrishmaButton" onclick="toggleBio('grishma_img1');toggleBio('grishma_bio1'); toggleBio('grishma_bio2');">About Me</button>
+
+        <img id="grishma_img1" src="img/grishmahowale.jpg" alt="Grishma Howale">
+        <p id="grishma_bio1" class="bio"><br>Hi! I’m a Computer Science major with a Cybersecurity concentration. I’m passionate about secure software,
+            teamwork, and tech that makes a difference. I lead Team 404 Infinite Code as the Scrum Master and enjoy working on creative and collaborative projects.</p>
+        <p id="grishma_bio2" class="bio"> Outside of academics, I love dancing and reading books.
+    <br>
+    <a href="https://github.com/grishmahowale12" target="_blank" rel="noopener noreferrer" aria-label="Visit Grishma Howale's GitHub profile">
+        Visit my GitHub profile where I love to code and collaborate!
+    </a>.</p>
+    </div>
     </div>
     <div class="card">
         <h2>Jane Smith</h2>
@@ -39,6 +48,7 @@
         <button onclick="toggleBio('bio2')">Show Bio</button>
         <p id="bio2" class="bio">Jane is a backend developer specializing in server-side logic and database management.</p>
     </div>
+
     <div id="CarterCard" class="card">
         <h2 id="CarterName">Carter Meadows</h2>
         <p id ="CarterTitle">Software Developer</p>
@@ -52,10 +62,12 @@
         that my friends and I have been creating over the past few months. This has been a low stakes passion project for us and has helped all of
         us grow a lot as developers.</p>
     </div>
+
     <div id="IvanCard" class="card">
         <h2 id="IvanName">Ivan Ivanov</h2>
         <p id="IvanTitle">Software Developer</p>
-        <button id="IvanButton" onclick="toggleBio('ivan_img1');toggleBio('ivan_bio1'); toggleBio('ivan_bio2'); toggleBio('ivan_img2');">About Me</button>
+        <button id="IvanButton" onclick="toggleBio('ivan_img1');toggleBio('ivan_bio1'); toggleBio('ivan_bio2'); toggleBio('ivan_img2');
+        toggleBio('ivan_bio3'); toggleInlineBio('ivan_bio4');">About Me</button>
 
         <img id="ivan_img1" src="img/IvanIvanov.jpg" alt="Ivan Ivanov">
         <p id="ivan_bio1" class="bio"><br>Hello! My name is Ivan Ivanov, and I am a skilled developer with experience and passion for the world of
@@ -64,13 +76,18 @@
         video games, so I used Game Maker to create platformers!Game Maker has made some very popular games, such as
             Undertale, Hotline Miami, Hyper Light Drifter, and many more!</p>
         <img id="ivan_img2" src="img/gm.png" alt="Game Maker">
+        <p id="ivan_bio3" class="bio">I also created a personal website using HTML and CSS!</p>
+        <a id="ivan_bio4" class="bio" href="https://ivanthebulgarian.com/" target="_blank">Click Here to see it!</a>
     </div>
+
+
+
 </div>
 
 <!-- Team vision/mission statement section (hidden by default) -->
 <div id="vision" class="container" style="display: none;">
     <h2>Our Mission Statement</h2>
-    <p>We strive to create a collaborative, inclusive, and innovative environment where team members feel empowered to push boundaries and achieve excellence in their craft. Our mission is to deliver high-quality solutions that meet and exceed our clients' expectations.</p>
+    <p>We are Team 404 Infinite Code, committed to building inclusive, functional, and creative software while fostering a supportive team culture that values communication, learning, and innovation.</p>
 </div>
 
 <script src="script.js"></script> <!-- Link to external JavaScript file -->
